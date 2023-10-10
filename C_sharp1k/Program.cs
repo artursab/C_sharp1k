@@ -9,5 +9,6 @@ class Program
         int b = 5;
 
         Console.WriteLine(a);
+        Console.WriteLine(b);
     }
 }
