@@ -15,6 +15,14 @@ namespace type_casting_inheritance
 
         public A() 
         {
+            Console.WriteLine(publicFiled);
+            Console.WriteLine(privateFiled);
+            Console.WriteLine(protectedFiled);
+        }
+
+        public void Foo()
+        {
+            Console.WriteLine(publicFiled);
             Console.WriteLine(privateFiled);
             Console.WriteLine(protectedFiled);
         }
