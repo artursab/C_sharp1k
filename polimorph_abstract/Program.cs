@@ -2,7 +2,20 @@
 
 namespace polimorph_abstract
 {
-    abstract class Weapon
+
+    interface IHasInfo
+    {
+        void ShowInfo();
+    }
+
+    interface IWeapon
+    {
+        int Damage { get; }
+        void Fire();
+    }
+
+
+    abstract class Weapon : IHasInfo, IWeapon
     {
         public abstract int Damage { get; }
 
@@ -27,7 +40,7 @@ namespace polimorph_abstract
 
     class Bow : Weapon
     {
-        public override int Damage => 3();
+        public override int Damage => 3;
 
         public override void Fire()
         {
@@ -47,14 +60,23 @@ namespace polimorph_abstract
 
     class Player
     {
-        public void Fire(Weapon weapon)
+        public void Fire(IWeapon weapon)
         {
             weapon.Fire();
         }
 
-        public void CheckInfo(Weapon weapon)
+        public void CheckInfo(IHasInfo hasInfo)
         {
-            weapon.ShowInfo();
+            hasInfo.ShowInfo();
+        }
+    }
+
+
+    class Box : IHasInfo
+    {
+        public void ShowInfo()
+        {
+            Console.WriteLine("I'm box!");
         }
     }
 
@@ -72,6 +94,8 @@ namespace polimorph_abstract
                 player.Fire(item);
                 Console.WriteLine();
             }
+
+            player.CheckInfo(new Box());
 
         }
     }
