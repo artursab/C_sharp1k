@@ -23,17 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "Base\Base.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "protected", "type_casting_inheritance\protected.csproj", "{4199F739-7A31-48AA-A015-D4DE49139CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorphism", "Polimorphism\Polimorphism.csproj", "{AB8B0B53-75F9-421F-9263-A49E22F06C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorphism", "Polimorphism\Polimorphism.csproj", "{AB8B0B53-75F9-421F-9263-A49E22F06C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polimorph_abstract", "polimorph_abstract\polimorph_abstract.csproj", "{032E4E93-90B3-464C-96F8-ABC903A6D281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "polimorph_abstract", "polimorph_abstract\polimorph_abstract.csproj", "{032E4E93-90B3-464C-96F8-ABC903A6D281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_and_polimorph", "Interface_and_polimorph\Interface_and_polimorph.csproj", "{776F3266-D0D4-4211-9DAB-E3EC8B4B2A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_and_polimorph", "Interface_and_polimorph\Interface_and_polimorph.csproj", "{776F3266-D0D4-4211-9DAB-E3EC8B4B2A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_realization", "Interface_realization\Interface_realization.csproj", "{7C5607E3-83E3-4004-B609-79FF03DA3BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_realization", "Interface_realization\Interface_realization.csproj", "{7C5607E3-83E3-4004-B609-79FF03DA3BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "explicit_implement_interface", "explicit_implement_interface\explicit_implement_interface.csproj", "{0A13FE7F-9A2E-45D2-882B-E0D7B97F1314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "explicit_implement_interface", "explicit_implement_interface\explicit_implement_interface.csproj", "{0A13FE7F-9A2E-45D2-882B-E0D7B97F1314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "default_interface_implemention", "default_interface_implemention\default_interface_implemention.csproj", "{497310F3-E096-496F-A583-BB3058EC4E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "default_interface_implemention", "default_interface_implemention\default_interface_implemention.csproj", "{497310F3-E096-496F-A583-BB3058EC4E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures_classes_different", "Structures_classes_different\Structures_classes_different.csproj", "{F2B443B5-FE15-4C68-81B6-5D71030091EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{497310F3-E096-496F-A583-BB3058EC4E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{497310F3-E096-496F-A583-BB3058EC4E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{497310F3-E096-496F-A583-BB3058EC4E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B443B5-FE15-4C68-81B6-5D71030091EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B443B5-FE15-4C68-81B6-5D71030091EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B443B5-FE15-4C68-81B6-5D71030091EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B443B5-FE15-4C68-81B6-5D71030091EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
