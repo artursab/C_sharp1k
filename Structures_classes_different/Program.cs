@@ -27,9 +27,20 @@
 
     class Program
     {
+        static void Foo(ClassPoint point)
+        {
+
+        }
+
+        static void Bar(ClassPoint point)
+        {
+
+        }
         static void Main(string[] args)
         {
 
+            ClassPoint classPoint;
+            StructPoint structPoint;
         }
     }
 }

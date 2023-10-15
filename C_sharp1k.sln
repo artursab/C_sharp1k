@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "explicit_implement_interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "default_interface_implemention", "default_interface_implemention\default_interface_implemention.csproj", "{497310F3-E096-496F-A583-BB3058EC4E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures_classes_different", "Structures_classes_different\Structures_classes_different.csproj", "{F2B443B5-FE15-4C68-81B6-5D71030091EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structures_classes_different", "Structures_classes_different\Structures_classes_different.csproj", "{F2B443B5-FE15-4C68-81B6-5D71030091EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benchmark.csproj", "{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyParser", "MyParser\MyParser.csproj", "{0B6BC262-63E7-480B-97CE-842F7091B0BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
