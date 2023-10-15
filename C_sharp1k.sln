@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structures_classes_differen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benchmark.csproj", "{7BD871B6-CAEB-4A14-BA29-3E89CA8A4340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyParser", "MyParser\MyParser.csproj", "{0B6BC262-63E7-480B-97CE-842F7091B0BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyParser", "MyParser\MyParser.csproj", "{0B6BC262-63E7-480B-97CE-842F7091B0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing_unboxing", "Boxing_unboxing\Boxing_unboxing.csproj", "{B325266E-7C46-407F-83A0-83A286FB57D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6BC262-63E7-480B-97CE-842F7091B0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B325266E-7C46-407F-83A0-83A286FB57D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B325266E-7C46-407F-83A0-83A286FB57D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B325266E-7C46-407F-83A0-83A286FB57D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B325266E-7C46-407F-83A0-83A286FB57D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
